@@ -11,6 +11,7 @@ else
     echo "[+] use '$0 -y' to backup old files and force install"
 fi
 
+# I don't want the directories installed on purpose.
 for f in *
 do
     if [ "$f" != "install.sh" ]
