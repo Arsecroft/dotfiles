@@ -9,6 +9,12 @@ filetype on
 filetype plugin on
 filetype indent on
 
+" mouse support
+set mouse=a
+
+" line numbers
+set number
+
 " run python script
 set makeprg=python\ %
 set autowrite
