@@ -9,8 +9,11 @@ filetype on
 filetype plugin on
 filetype indent on
 
+set wildmenu
+set wildmode=list:longest
+
 " mouse support
-set mouse=a
+"set mouse=a
 
 " line numbers
 set number
