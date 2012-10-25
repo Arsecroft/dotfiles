@@ -341,9 +341,10 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 
 
 -- startup shite
+os.execute("xfce-power-manager &")
 os.execute("wicd-gtk &")
-os.execute("google-musicmanager &")
-os.execute("dropbox start &")
+--os.execute("google-musicmanager &")
+--os.execute("dropbox start &")
 os.execute("xscreensaver &")
 os.execute("nitrogen --restore &")
 -- os.execute("wuala &")
